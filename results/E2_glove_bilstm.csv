@@ -1,0 +1,2 @@
+run_name,accuracy,precision,recall,f1,roc_auc,train_time_sec,epochs_run,params,max_len,embeddings,bidirectional
+E2_glove_bilstm,0.8607,0.8793,0.8399,0.8592,0.9331,48.4,6,1084609,200,glove,True

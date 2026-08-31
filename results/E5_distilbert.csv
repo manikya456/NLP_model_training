@@ -1,0 +1,2 @@
+run_name,accuracy,precision,recall,f1,roc_auc,train_time_sec,model,max_len,epochs
+E5_distilbert,0.8927,0.8696,0.9269,0.8973,0.9648,393.8,distilbert-base-uncased,256,3

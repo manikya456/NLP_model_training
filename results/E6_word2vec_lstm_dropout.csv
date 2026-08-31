@@ -1,0 +1,2 @@
+run_name,accuracy,precision,recall,f1,roc_auc,train_time_sec,epochs_run,params,max_len,embeddings,dropout
+E6_word2vec_lstm_dropout,0.8673,0.8825,0.8511,0.8665,0.9389,1666.3,9,1042305,200,word2vec,0.3

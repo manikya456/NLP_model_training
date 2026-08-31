@@ -1,0 +1,15 @@
+accelerate
+datasets
+gensim
+ipykernel
+jupyter
+matplotlib
+numpy
+pandas
+pyarrow
+scikit-learn
+scipy
+tensorflow
+tokenizers
+torch
+transformers

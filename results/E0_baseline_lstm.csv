@@ -1,0 +1,2 @@
+run_name,accuracy,precision,recall,f1,roc_auc,train_time_sec,epochs_run,params,max_len,embeddings
+E0_baseline_lstm,0.8333,0.7809,0.9321,0.8498,0.9193,26.2,5,1042305,200,random_init

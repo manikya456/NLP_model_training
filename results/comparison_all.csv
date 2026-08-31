@@ -1,0 +1,8 @@
+run_name,accuracy,precision,recall,f1,roc_auc,train_time_sec,epochs_run,params,max_len,embeddings,bidirectional,dropout,recurrent_dropout,model,epochs,lr_schedule,early_stopping,class_weights
+E0_baseline_lstm,0.8333,0.7809,0.9321,0.8498,0.9193,26.2,5.0,1042305.0,200,random_init,,,,,,,,
+E1_glove_lstm,0.8653,0.8784,0.8518,0.8649,0.9326,35.4,7.0,1042305.0,200,glove,,,,,,,,
+E2_glove_bilstm,0.8607,0.8793,0.8399,0.8592,0.9331,48.4,6.0,1084609.0,200,glove,True,,,,,,,
+E3_glove_lstm_dropout,0.8673,0.859,0.8827,0.8707,0.9384,1462.9,7.0,1042305.0,200,glove,,0.3,0.2,,,,,
+E5_distilbert,0.8927,0.8696,0.9269,0.8973,0.9648,393.8,,,256,,,,,distilbert-base-uncased,3.0,,,
+E6_word2vec_lstm_dropout,0.8673,0.8825,0.8511,0.8665,0.9389,1666.3,9.0,1042305.0,200,word2vec,,0.3,,,,,,
+E7_best_combo,0.8693,0.8441,0.9097,0.8757,0.94,1750.6,8.0,1042305.0,200,glove,,0.3,,,,True,True,True
