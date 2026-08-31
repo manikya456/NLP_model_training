@@ -8,7 +8,7 @@ This project uses the IMDb 50K movie review dataset:
 
 - 50,000 labeled reviews
 - binary sentiment labels: `positive` and `negative`
-- stored locally in `data/IMDB Dataset.csv`
+- download the CSV separately and place it in `data/IMDB Dataset.csv`
 
 ## What’s Included
 
@@ -37,7 +37,7 @@ jupyter notebook
 ## Project Structure
 
 - `notebooks/` - experiment notebooks
-- `data/` - dataset and embedding files
+- `data/` - local dataset and embedding files
 - `results/` - evaluation outputs and plots
 
 ## Notes

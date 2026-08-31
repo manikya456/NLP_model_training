@@ -3,6 +3,7 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 venv/
+data/IMDB Dataset.csv
 data/glove.6B.100d.txt
 data/*:Zone.Identifier
 results/distilbert_out/
