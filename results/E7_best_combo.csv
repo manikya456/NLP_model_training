@@ -1,2 +1,2 @@
 run_name,accuracy,precision,recall,f1,roc_auc,train_time_sec,epochs_run,params,max_len,embeddings,dropout,lr_schedule,early_stopping,class_weights
-E7_best_combo,0.8693,0.8441,0.9097,0.8757,0.94,1750.6,8,1042305,200,glove,0.3,True,True,True
+E7_best_combo,0.8667,0.8511,0.8926,0.8714,0.9392,114.5,7,1042305,200,glove,0.3,True,True,True
